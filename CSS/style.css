@@ -1,0 +1,123 @@
+/*  
+	CSS code linked with Login Page/index.html document
+*/
+
+/* Included Fonts (Taken from Google Fonts) */
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+body{
+	background:#000000;
+	background-image:url("../Images/background.jpg");
+	background-size: cover;
+	height:70vh;
+	margin:0;
+}
+marquee{
+	/*position: absolute;
+	left:0px;
+	right:0px;
+	top:1px;*/
+	color:Purple;
+	font-family:Acme;
+	font-size:20px;
+	background-color:yellow;
+	height:30px;
+	font-weight:700;
+}
+.glow{
+	height:80px;
+	text-align:center;
+	color:#fff;
+	font-family:Righteous;
+	font-size:35px;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+.subh{
+	text-align:center;
+	color:#00ff00;
+	font-family:Varela Round;
+	font-size: 26px;
+	text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.form{
+	align: center;
+}
+input[type=text]{
+	text-align:center;
+	width: 30%;
+	color: blue;
+	background: transparent;
+	border: 3px solid black;
+	padding: 5px 2px;
+	border-color: black;
+	font-size:20px;
+	border-radius: 15px;
+	font-family: Berlin Sans FB;
+	border-color:#0033cc;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+
+}
+input[type=password]{
+	text-align:center;
+	width: 30%;
+	color: blue;
+	background: transparent;
+	border: 3px solid black;
+	padding: 5px 2px;
+	border-color: black;
+	font-size: 20px;
+	border-color:#0033cc;
+	border-radius: 15px;
+	Font-family:Berlin Sans FB;
+}
+input[type=submit]{
+	width:20%;
+	height:10%;
+	background-image:linear-gradient(to bottom,yellow,#00ff00);
+	font-size:25px;
+	color:Red;
+	text-shadow:0px 0 black, 0 1px black, 1px 1px black, 0 0px black;
+	border:2px solid black; 
+	border-color:#00ff00;
+	border-radius: 25px;
+	font-family:Acme,Varela Round;
+	font-weight: 900;
+}
+.des{
+	background:black;
+	color:#00ffff;
+	font-size:25px;
+	font-family:Josefin Sans;
+	text-align:center;
+}
+.sp{
+	display:block;
+	margin-bottom:3em;
+}
+.sp2{
+	display:block;
+	margin-bottom:3em;
+}
+::placeholder{
+	color: white;
+	opacity:0.8;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+
+
